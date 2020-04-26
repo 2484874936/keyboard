@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: E:\Hardware\硬件资料\自绘pcb\机械键盘\机械键盘\STM32F405\STM32F405.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=stm32f405-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=stm32f405-slotholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=stm32f405-rectholes.txt|DrillLayers=gtl,gbl

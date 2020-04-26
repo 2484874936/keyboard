@@ -1,0 +1,233 @@
+#include "bsp_key.h"
+
+#include "main.h"
+
+void mx_key_init(key_info_t *key_cfg)
+{
+    /* key seg gpio 配置*/
+    key_cfg->key_seg[0].gpio = KEY_SEG1_GPIO_Port;
+    key_cfg->key_seg[0].gpio_pin = KEY_SEG1_Pin;
+    key_cfg->key_seg[1].gpio = KEY_SEG2_GPIO_Port;
+    key_cfg->key_seg[1].gpio_pin = KEY_SEG2_Pin;
+    key_cfg->key_seg[2].gpio = KEY_SEG3_GPIO_Port;
+    key_cfg->key_seg[2].gpio_pin = KEY_SEG3_Pin;
+    key_cfg->key_seg[3].gpio = KEY_SEG4_GPIO_Port;
+    key_cfg->key_seg[3].gpio_pin = KEY_SEG4_Pin;
+    key_cfg->key_seg[4].gpio = KEY_SEG5_GPIO_Port;
+    key_cfg->key_seg[4].gpio_pin = KEY_SEG5_Pin;
+    key_cfg->key_seg[5].gpio = KEY_SEG6_GPIO_Port;
+    key_cfg->key_seg[5].gpio_pin = KEY_SEG6_Pin;
+    key_cfg->key_seg[6].gpio = KEY_SEG7_GPIO_Port;
+    key_cfg->key_seg[6].gpio_pin = KEY_SEG7_Pin;
+
+    /* key pos gpio 配置*/
+    key_cfg->key_pos[0].gpio = KEY_POS1_GPIO_Port;
+    key_cfg->key_pos[0].gpio_pin = KEY_POS1_Pin;
+    key_cfg->key_pos[1].gpio = KEY_POS2_GPIO_Port;
+    key_cfg->key_pos[1].gpio_pin = KEY_POS2_Pin;
+    key_cfg->key_pos[2].gpio = KEY_POS3_GPIO_Port;
+    key_cfg->key_pos[2].gpio_pin = KEY_POS3_Pin;
+    key_cfg->key_pos[3].gpio = KEY_POS4_GPIO_Port;
+    key_cfg->key_pos[3].gpio_pin = KEY_POS4_Pin;
+    key_cfg->key_pos[4].gpio = KEY_POS5_GPIO_Port;
+    key_cfg->key_pos[4].gpio_pin = KEY_POS5_Pin;
+    key_cfg->key_pos[5].gpio = KEY_POS6_GPIO_Port;
+    key_cfg->key_pos[5].gpio_pin = KEY_POS6_Pin;
+    key_cfg->key_pos[6].gpio = KEY_POS7_GPIO_Port;
+    key_cfg->key_pos[6].gpio_pin = KEY_POS7_Pin;
+    key_cfg->key_pos[7].gpio = KEY_POS8_GPIO_Port;
+    key_cfg->key_pos[7].gpio_pin = KEY_POS8_Pin;
+    key_cfg->key_pos[8].gpio = KEY_POS9_GPIO_Port;
+    key_cfg->key_pos[8].gpio_pin = KEY_POS9_Pin;
+    key_cfg->key_pos[9].gpio = KEY_POS10_GPIO_Port;
+    key_cfg->key_pos[9].gpio_pin = KEY_POS10_Pin;
+    key_cfg->key_pos[10].gpio = KEY_POS11_GPIO_Port;
+    key_cfg->key_pos[10].gpio_pin = KEY_POS11_Pin;
+    key_cfg->key_pos[11].gpio = KEY_POS12_GPIO_Port;
+    key_cfg->key_pos[11].gpio_pin = KEY_POS12_Pin;
+    key_cfg->key_pos[12].gpio = KEY_POS13_GPIO_Port;
+    key_cfg->key_pos[12].gpio_pin = KEY_POS13_Pin;
+    key_cfg->key_pos[13].gpio = KEY_POS14_GPIO_Port;
+    key_cfg->key_pos[13].gpio_pin = KEY_POS14_Pin;
+	
+	key_cfg->key_is_press[0].key_char = Keyboard_ESCAPE;
+	key_cfg->key_is_press[1].key_char = Keyboard_F1;
+	key_cfg->key_is_press[0].key_char = Keyboard_F2;
+	key_cfg->key_is_press[0].key_char = Keyboard_F3;
+	key_cfg->key_is_press[0].key_char = Keyboard_F4;
+	key_cfg->key_is_press[0].key_char = Keyboard_F5;
+	key_cfg->key_is_press[0].key_char = Keyboard_F6;
+	key_cfg->key_is_press[0].key_char = Keyboard_F7;
+	key_cfg->key_is_press[0].key_char = Keyboard_F8;
+	key_cfg->key_is_press[0].key_char = Keyboard_F9;
+	key_cfg->key_is_press[0].key_char = Keyboard_F10;
+	key_cfg->key_is_press[0].key_char = Keyboard_F11;
+	key_cfg->key_is_press[0].key_char = Keyboard_F12;
+	key_cfg->key_is_press[0].key_char = Keyboard_BoLangXian;
+	key_cfg->key_is_press[0].key_char = Keyboard_1;
+	key_cfg->key_is_press[0].key_char = Keyboard_2;
+		key_cfg->key_is_press[0].key_char = Keyboard_3;
+	key_cfg->key_is_press[0].key_char = Keyboard_4;
+	key_cfg->key_is_press[0].key_char = Keyboard_5;
+	key_cfg->key_is_press[0].key_char = Keyboard_6;
+	key_cfg->key_is_press[0].key_char = Keyboard_7;
+	key_cfg->key_is_press[0].key_char = Keyboard_8;
+	key_cfg->key_is_press[0].key_char = Keyboard_9;
+		key_cfg->key_is_press[0].key_char = Keyboard_0;
+	key_cfg->key_is_press[0].key_char = Keyboard_JianHao;
+	key_cfg->key_is_press[0].key_char = Keyboard_DengHao;
+	key_cfg->key_is_press[0].key_char = Keyboard_Backspace;
+	key_cfg->key_is_press[0].key_char = Keyboard_Tab;
+	key_cfg->key_is_press[0].key_char = Keyboard_q;
+	key_cfg->key_is_press[0].key_char = Keyboard_w;
+		key_cfg->key_is_press[0].key_char = Keyboard_e;
+	key_cfg->key_is_press[0].key_char = Keyboard_r;
+	key_cfg->key_is_press[0].key_char = Keyboard_t;
+	key_cfg->key_is_press[0].key_char = Keyboard_y;
+	key_cfg->key_is_press[0].key_char = Keyboard_u;
+	key_cfg->key_is_press[0].key_char = Keyboard_i;
+	key_cfg->key_is_press[0].key_char = Keyboard_o;
+		key_cfg->key_is_press[0].key_char = Keyboard_p;
+	key_cfg->key_is_press[0].key_char = Keyboard_ZuoZhongKuoHao;
+	key_cfg->key_is_press[0].key_char = Keyboard_YouZhongKuoHao;
+	key_cfg->key_is_press[0].key_char = Keyboard_FanXieGang;
+	key_cfg->key_is_press[0].key_char = Keyboard_CapsLock;
+	key_cfg->key_is_press[0].key_char = Keyboard_a;
+	key_cfg->key_is_press[0].key_char = Keyboard_s;
+		key_cfg->key_is_press[0].key_char = Keyboard_d;
+	key_cfg->key_is_press[0].key_char = Keyboard_f;
+	key_cfg->key_is_press[0].key_char = Keyboard_g;
+	key_cfg->key_is_press[0].key_char = Keyboard_h;
+	key_cfg->key_is_press[0].key_char = Keyboard_j;
+	key_cfg->key_is_press[0].key_char = Keyboard_k;
+	key_cfg->key_is_press[0].key_char = Keyboard_l;
+		key_cfg->key_is_press[0].key_char = Keyboard_FenHao;
+	key_cfg->key_is_press[0].key_char = Keyboard_DanYinHao;
+	key_cfg->key_is_press[0].key_char = Keypad_ENTER;
+	key_cfg->key_is_press[0].key_char = Keyboard_LeftShift;
+	key_cfg->key_is_press[0].key_char = Keyboard_z;
+	key_cfg->key_is_press[0].key_char = Keyboard_x;
+	key_cfg->key_is_press[0].key_char = Keyboard_c;
+		key_cfg->key_is_press[0].key_char = Keyboard_v;
+	key_cfg->key_is_press[0].key_char = Keyboard_b;
+	key_cfg->key_is_press[0].key_char = Keyboard_n;
+	key_cfg->key_is_press[0].key_char = Keyboard_m;
+	key_cfg->key_is_press[0].key_char = Keyboard_Douhao;
+	key_cfg->key_is_press[0].key_char = Keyboard_JuHao;
+	key_cfg->key_is_press[0].key_char = Keyboard_XieGang_WenHao;
+		key_cfg->key_is_press[0].key_char = Keyboard_RightShift;
+	key_cfg->key_is_press[0].key_char = Keyboard_LeftControl;
+	key_cfg->key_is_press[0].key_char = Keyboard_LeftWindows;
+	key_cfg->key_is_press[0].key_char = Keyboard_LeftAlt;
+	key_cfg->key_is_press[0].key_char = Keyboard_KongGe;
+	key_cfg->key_is_press[0].key_char = Keyboard_RightAlt;
+	key_cfg->key_is_press[0].key_char = Keyboard_RightWindows;
+		key_cfg->key_is_press[0].key_char =
+	key_cfg->key_is_press[0].key_char = Keyboard_RightControl
+	key_cfg->key_is_press[0].key_char = Keyboard_PrintScreen//?
+	key_cfg->key_is_press[0].key_char = Keyboard_ScrollLock;
+	key_cfg->key_is_press[0].key_char = Keyboard_Pause;
+	key_cfg->key_is_press[0].key_char = Keyboard_Insert;
+	key_cfg->key_is_press[0].key_char = Keyboard_Home;
+		key_cfg->key_is_press[0].key_char = Keyboard_PageUp;
+	key_cfg->key_is_press[0].key_char = Keyboard_Delete;
+	key_cfg->key_is_press[0].key_char = Keyboard_End;
+	key_cfg->key_is_press[0].key_char = Keyboard_PageDown;
+	key_cfg->key_is_press[0].key_char = Keyboard_UpArrow;
+	key_cfg->key_is_press[0].key_char = Keyboard_LeftArrow;
+	key_cfg->key_is_press[0].key_char = Keyboard_DownArrow;
+		key_cfg->key_is_press[0].key_char = Keyboard_RightArrow;
+	key_cfg->key_is_press[0].key_char =
+	key_cfg->key_is_press[0].key_char =
+	key_cfg->key_is_press[0].key_char =
+	key_cfg->key_is_press[0].key_char =
+	key_cfg->key_is_press[0].key_char =
+	key_cfg->key_is_press[0].key_char =
+	
+	
+}
+/*拉高需要使用的seg gpio电平，将其余seg gpio置底*/
+void key_scan_gpio_set(key_info_t *key_cfg,uint8_t seg)
+{
+	uint8_t i;
+	for(i=0;i<MAX_SEG;i++)
+	{
+		if(i==(seg-1))
+		{
+			HAL_GPIO_WritePin(key_cfg->key_seg[i].gpio,key_cfg->key_seg[i].gpio_pin,GPIO_PIN_SET);
+		}
+		else 
+		{
+			HAL_GPIO_WritePin(key_cfg->key_seg[i].gpio,key_cfg->key_seg[i].gpio_pin,GPIO_PIN_RESET);
+		}
+	
+	}
+}
+/*读取GPIO*/
+void key_scan_gpio_read(key_info_t *key_cfg,uint8_t seg)
+{
+	uint8_t i;
+	for(i=0;i<MAX_POS;i++)
+	{
+		key_cfg->key_is_press_seg[seg-1][i] =  
+		HAL_GPIO_ReadPin(key_cfg->key_pos[i].gpio,key_cfg->key_pos[i].gpio_pin);
+	}
+}
+void key_scan(key_info_t *key_cfg,uint8_t seg)
+{
+	key_scan_gpio_set(key_cfg,seg);
+	key_scan_gpio_read(key_cfg,seg);
+}
+/*将扫描得到的键值更新到对应序号*/
+void key_scan_updata(key_info_t *key_cfg)
+{
+	uint8_t i;
+	/*
+		对应原理图
+		SEG1 1-13   ->13
+		SEG2 14-27  ->14
+		SEG3 28-41	->14
+		SEG4 42-54	->13
+		SEG5 55-66	->12
+		SEG6 67-74	->8
+		SEG7 75-87	->13
+	*/
+	/*SEG1 0-12   ->13*/
+	for(i=0;i<13;i++)
+	{
+		key_cfg->key_is_press[i].press_it = key_cfg->key_is_press_seg[0][i];
+	}
+	/*SEG2 13-26  ->14*/
+	for(i=0;i<14;i++)
+	{
+		key_cfg->key_is_press[i+13].press_it = key_cfg->key_is_press_seg[1][i];
+	}
+	/*SEG3 27-40	->14*/
+	for(i=0;i<14;i++)
+	{
+		key_cfg->key_is_press[i+27].press_it = key_cfg->key_is_press_seg[2][i];
+	}
+	/*SEG4 41-53	->13*/
+	for(i=0;i<13;i++)
+	{
+		key_cfg->key_is_press[i+41].press_it = key_cfg->key_is_press_seg[3][i];
+	}
+	/*SEG5 54-65	->12*/
+	for(i=0;i<12;i++)
+	{
+		key_cfg->key_is_press[i+54].press_it = key_cfg->key_is_press_seg[4][i];
+	}
+	/*SEG6 66-73	->8*/
+	for(i=0;i<8;i++)
+	{
+		key_cfg->key_is_press[i+66].press_it = key_cfg->key_is_press_seg[5][i];
+	}
+	/*SEG7 74-86	->13*/
+	for(i=0;i<13;i++)
+	{
+		key_cfg->key_is_press[i+74].press_it = key_cfg->key_is_press_seg[6][i];
+	}
+
+
+}
+

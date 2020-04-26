@@ -1,0 +1,10 @@
+USB-TTL		XM-15B
+
++5V ----------	VCC
+GND ----------	GND
+TXD ----------	RXD
+RXD ----------	TXD
+
+注意TXD和RXD是交叉连接
+
+USB-TTL 上的 3.3V 和 VCC用跳线帽短接
