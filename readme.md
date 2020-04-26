@@ -1,6 +1,8 @@
 **@版权所有->SEASKY**
 
-[演示视频](https://b23.tv/BV1ri4y1t7xG)
+**[SEASKY机械键盘演示视频](https://b23.tv/BV1ri4y1t7xG)**
+
+**欢迎加入SEASKY开源技术交流群:893445794**
 
 
 <img src = "./image/keyboard0.jpg" width="800" />
