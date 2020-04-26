@@ -123,23 +123,6 @@ GenerateClassCluster=0
 DocumentUniqueId=RTYCQPRD
 
 [Document6]
-DocumentPath=STM32F405.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MXOLCAJA
-
-[Document7]
 DocumentPath=STM32F405.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JDGMMPEJ
 
-[Document8]
+[Document7]
 DocumentPath=¶¨Î»°å.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -172,10 +155,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IXIXENUT
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for BMI088_STM32F405\Design Rule Check - STM32F405.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
