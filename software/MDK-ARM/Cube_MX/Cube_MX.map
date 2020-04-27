@@ -3453,32 +3453,32 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x00000188   Data   RO            3    RESET               startup_stm32f405xx.o
-    0x08000188   0x08000188   0x00000000   Code   RO         7625  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000188   0x08000188   0x00000004   Code   RO         7672    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x0800018c   0x0800018c   0x00000004   Code   RO         7675    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         7677    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000190   0x08000190   0x00000000   Code   RO         7679    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000190   0x08000190   0x00000008   Code   RO         7680    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         7682    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000198   0x08000198   0x00000000   Code   RO         7684    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000198   0x08000198   0x00000004   Code   RO         7673    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000188   0x08000188   0x00000000   Code   RO         7519  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000188   0x08000188   0x00000004   Code   RO         7566    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0800018c   0x0800018c   0x00000004   Code   RO         7569    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         7571    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000190   0x08000190   0x00000000   Code   RO         7573    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000190   0x08000190   0x00000008   Code   RO         7574    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         7576    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000198   0x08000198   0x00000000   Code   RO         7578    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000198   0x08000198   0x00000004   Code   RO         7567    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x0800019c   0x0800019c   0x000000be   Code   RO         6222    .emb_text           port.o
     0x0800025a   0x0800025a   0x00000002   PAD
     0x0800025c   0x0800025c   0x00000024   Code   RO            4    .text               startup_stm32f405xx.o
-    0x08000280   0x08000280   0x00000062   Code   RO         7628    .text               mc_w.l(uldiv.o)
-    0x080002e2   0x080002e2   0x00000024   Code   RO         7630    .text               mc_w.l(memcpya.o)
-    0x08000306   0x08000306   0x00000024   Code   RO         7634    .text               mc_w.l(memseta.o)
-    0x0800032a   0x0800032a   0x000000e4   Code   RO         7666    .text               mf_w.l(dmul.o)
-    0x0800040e   0x0800040e   0x0000001a   Code   RO         7668    .text               mf_w.l(dfltui.o)
-    0x08000428   0x08000428   0x00000038   Code   RO         7670    .text               mf_w.l(d2f.o)
-    0x08000460   0x08000460   0x0000001e   Code   RO         7686    .text               mc_w.l(llshl.o)
-    0x0800047e   0x0800047e   0x00000020   Code   RO         7688    .text               mc_w.l(llushr.o)
-    0x0800049e   0x0800049e   0x00000000   Code   RO         7692    .text               mc_w.l(iusefp.o)
-    0x0800049e   0x0800049e   0x0000006e   Code   RO         7693    .text               mf_w.l(fepilogue.o)
-    0x0800050c   0x0800050c   0x000000ba   Code   RO         7695    .text               mf_w.l(depilogue.o)
+    0x08000280   0x08000280   0x00000062   Code   RO         7522    .text               mc_w.l(uldiv.o)
+    0x080002e2   0x080002e2   0x00000024   Code   RO         7524    .text               mc_w.l(memcpya.o)
+    0x08000306   0x08000306   0x00000024   Code   RO         7528    .text               mc_w.l(memseta.o)
+    0x0800032a   0x0800032a   0x000000e4   Code   RO         7560    .text               mf_w.l(dmul.o)
+    0x0800040e   0x0800040e   0x0000001a   Code   RO         7562    .text               mf_w.l(dfltui.o)
+    0x08000428   0x08000428   0x00000038   Code   RO         7564    .text               mf_w.l(d2f.o)
+    0x08000460   0x08000460   0x0000001e   Code   RO         7580    .text               mc_w.l(llshl.o)
+    0x0800047e   0x0800047e   0x00000020   Code   RO         7582    .text               mc_w.l(llushr.o)
+    0x0800049e   0x0800049e   0x00000000   Code   RO         7586    .text               mc_w.l(iusefp.o)
+    0x0800049e   0x0800049e   0x0000006e   Code   RO         7587    .text               mf_w.l(fepilogue.o)
+    0x0800050c   0x0800050c   0x000000ba   Code   RO         7589    .text               mf_w.l(depilogue.o)
     0x080005c6   0x080005c6   0x00000002   PAD
-    0x080005c8   0x080005c8   0x00000024   Code   RO         7697    .text               mc_w.l(init.o)
-    0x080005ec   0x080005ec   0x00000056   Code   RO         7707    .text               mc_w.l(__dczerorl2.o)
+    0x080005c8   0x080005c8   0x00000024   Code   RO         7591    .text               mc_w.l(init.o)
+    0x080005ec   0x080005ec   0x00000056   Code   RO         7601    .text               mc_w.l(__dczerorl2.o)
     0x08000642   0x08000642   0x00000002   PAD
     0x08000644   0x08000644   0x00000128   Code   RO         2902    i.ADC_Init          stm32f4xx_hal_adc.o
     0x0800076c   0x0800076c   0x00000002   Code   RO         1080    i.BusFault_Handler  stm32f4xx_it.o
@@ -3578,17 +3578,17 @@ Memory Map of the image
     0x08002b08   0x08002b08   0x00000040   Code   RO          746    i.MX_USB_DEVICE_Init  usb_device.o
     0x08002b48   0x08002b48   0x00000002   Code   RO         1083    i.MemManage_Handler  stm32f4xx_it.o
     0x08002b4a   0x08002b4a   0x00000002   Code   RO         1084    i.NMI_Handler       stm32f4xx_it.o
-    0x08002b4c   0x08002b4c   0x0000003c   Code   RO         6781    i.OLED_Clear        bsp_oled.o
-    0x08002b88   0x08002b88   0x00000010   Code   RO         6782    i.OLED_DC_Clr       bsp_oled.o
-    0x08002b98   0x08002b98   0x00000010   Code   RO         6783    i.OLED_DC_Set       bsp_oled.o
-    0x08002ba8   0x08002ba8   0x00000040   Code   RO         6786    i.OLED_DrawBMP      bsp_oled.o
-    0x08002be8   0x08002be8   0x00000010   Code   RO         6787    i.OLED_RST_Clr      bsp_oled.o
-    0x08002bf8   0x08002bf8   0x00000010   Code   RO         6788    i.OLED_RST_Set      bsp_oled.o
-    0x08002c08   0x08002c08   0x0000002c   Code   RO         6789    i.OLED_Set_Pos      bsp_oled.o
-    0x08002c34   0x08002c34   0x00000064   Code   RO         6791    i.OLED_ShowChar     bsp_oled.o
-    0x08002c98   0x08002c98   0x00000062   Code   RO         6792    i.OLED_ShowNum      bsp_oled.o
-    0x08002cfa   0x08002cfa   0x00000032   Code   RO         6793    i.OLED_ShowString   bsp_oled.o
-    0x08002d2c   0x08002d2c   0x00000028   Code   RO         6794    i.OLED_WR_Byte      bsp_oled.o
+    0x08002b4c   0x08002b4c   0x0000003c   Code   RO         6778    i.OLED_Clear        bsp_oled.o
+    0x08002b88   0x08002b88   0x00000010   Code   RO         6779    i.OLED_DC_Clr       bsp_oled.o
+    0x08002b98   0x08002b98   0x00000010   Code   RO         6780    i.OLED_DC_Set       bsp_oled.o
+    0x08002ba8   0x08002ba8   0x00000040   Code   RO         6783    i.OLED_DrawBMP      bsp_oled.o
+    0x08002be8   0x08002be8   0x00000010   Code   RO         6784    i.OLED_RST_Clr      bsp_oled.o
+    0x08002bf8   0x08002bf8   0x00000010   Code   RO         6785    i.OLED_RST_Set      bsp_oled.o
+    0x08002c08   0x08002c08   0x0000002c   Code   RO         6786    i.OLED_Set_Pos      bsp_oled.o
+    0x08002c34   0x08002c34   0x00000064   Code   RO         6788    i.OLED_ShowChar     bsp_oled.o
+    0x08002c98   0x08002c98   0x00000062   Code   RO         6789    i.OLED_ShowNum      bsp_oled.o
+    0x08002cfa   0x08002cfa   0x00000032   Code   RO         6790    i.OLED_ShowString   bsp_oled.o
+    0x08002d2c   0x08002d2c   0x00000028   Code   RO         6791    i.OLED_WR_Byte      bsp_oled.o
     0x08002d54   0x08002d54   0x0000000c   Code   RO         1085    i.OTG_FS_IRQHandler  stm32f4xx_it.o
     0x08002d60   0x08002d60   0x000000dc   Code   RO         1237    i.PCD_EP_OutXfrComplete_int  stm32f4xx_hal_pcd.o
     0x08002e3c   0x08002e3c   0x000000a2   Code   RO         1238    i.PCD_WriteEmptyTxFifo  stm32f4xx_hal_pcd.o
@@ -3706,17 +3706,17 @@ Memory Map of the image
     0x08004a34   0x08004a34   0x00000024   Code   RO         1514    i.USB_WritePacket   stm32f4xx_ll_usb.o
     0x08004a58   0x08004a58   0x00000002   Code   RO         1087    i.UsageFault_Handler  stm32f4xx_it.o
     0x08004a5a   0x08004a5a   0x00000020   Code   RO         2524    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x08004a7a   0x08004a7a   0x0000000e   Code   RO         7701    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08004a88   0x08004a88   0x00000002   Code   RO         7702    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08004a8a   0x08004a8a   0x0000000e   Code   RO         7703    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08004a98   0x08004a98   0x0000003c   Code   RO         7446    i.adcx_get_chx_value  bsp_adc.o
-    0x08004ad4   0x08004ad4   0x00000064   Code   RO         7508    i.bule_keyboard_updata  bsp_bulehid.o
-    0x08004b38   0x08004b38   0x00000004   Code   RO         7549    i.delay_ms          bsp_delay.o
-    0x08004b3c   0x08004b3c   0x00000050   Code   RO         7638    i.free              mc_w.l(malloc.o)
+    0x08004a7a   0x08004a7a   0x0000000e   Code   RO         7595    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08004a88   0x08004a88   0x00000002   Code   RO         7596    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08004a8a   0x08004a8a   0x0000000e   Code   RO         7597    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08004a98   0x08004a98   0x0000003c   Code   RO         7340    i.adcx_get_chx_value  bsp_adc.o
+    0x08004ad4   0x08004ad4   0x00000064   Code   RO         7402    i.bule_keyboard_updata  bsp_bulehid.o
+    0x08004b38   0x08004b38   0x00000004   Code   RO         7443    i.delay_ms          bsp_delay.o
+    0x08004b3c   0x08004b3c   0x00000050   Code   RO         7532    i.free              mc_w.l(malloc.o)
     0x08004b8c   0x08004b8c   0x000000a4   Code   RO         6640    i.get_oled_button_ad  bsp_gui.o
-    0x08004c30   0x08004c30   0x00000064   Code   RO         7448    i.get_oled_voltage  bsp_adc.o
-    0x08004c94   0x08004c94   0x00000044   Code   RO         7449    i.get_temprate      bsp_adc.o
-    0x08004cd8   0x08004cd8   0x0000003c   Code   RO         7451    i.init_vrefint_reciprocal  bsp_adc.o
+    0x08004c30   0x08004c30   0x00000064   Code   RO         7342    i.get_oled_voltage  bsp_adc.o
+    0x08004c94   0x08004c94   0x00000044   Code   RO         7343    i.get_temprate      bsp_adc.o
+    0x08004cd8   0x08004cd8   0x0000003c   Code   RO         7345    i.init_vrefint_reciprocal  bsp_adc.o
     0x08004d14   0x08004d14   0x0000007c   Code   RO         6645    i.interface_finger  bsp_gui.o
     0x08004d90   0x08004d90   0x000000a8   Code   RO         6646    i.interface_main    bsp_gui.o
     0x08004e38   0x08004e38   0x00000038   Code   RO         6647    i.interface_second  bsp_gui.o
@@ -3727,34 +3727,34 @@ Memory Map of the image
     0x08004ef4   0x08004ef4   0x00000014   Code   RO         6652    i.interface_task5   bsp_gui.o
     0x08004f08   0x08004f08   0x00000014   Code   RO         6653    i.interface_task6   bsp_gui.o
     0x08004f1c   0x08004f1c   0x00000014   Code   RO         6654    i.interface_task7   bsp_gui.o
-    0x08004f30   0x08004f30   0x000001fc   Code   RO         7573    i.key_info_get      bsp_key.o
-    0x0800512c   0x0800512c   0x0000002c   Code   RO         7574    i.key_scan_gpio_read  bsp_key.o
-    0x08005158   0x08005158   0x0000002a   Code   RO         7575    i.key_scan_gpio_set  bsp_key.o
+    0x08004f30   0x08004f30   0x000001fc   Code   RO         7467    i.key_info_get      bsp_key.o
+    0x0800512c   0x0800512c   0x0000002c   Code   RO         7468    i.key_scan_gpio_read  bsp_key.o
+    0x08005158   0x08005158   0x0000002a   Code   RO         7469    i.key_scan_gpio_set  bsp_key.o
     0x08005182   0x08005182   0x00000002   PAD
-    0x08005184   0x08005184   0x00000040   Code   RO         7250    i.key_scan_task     key_task.o
-    0x080051c4   0x080051c4   0x000001e8   Code   RO         7576    i.key_scan_updata   bsp_key.o
-    0x080053ac   0x080053ac   0x00000028   Code   RO         7251    i.key_task_creat    key_task.o
-    0x080053d4   0x080053d4   0x00000136   Code   RO         7577    i.key_update        bsp_key.o
+    0x08005184   0x08005184   0x00000040   Code   RO         7163    i.key_scan_task     key_task.o
+    0x080051c4   0x080051c4   0x000001e8   Code   RO         7470    i.key_scan_updata   bsp_key.o
+    0x080053ac   0x080053ac   0x00000028   Code   RO         7164    i.key_task_creat    key_task.o
+    0x080053d4   0x080053d4   0x00000136   Code   RO         7471    i.key_update        bsp_key.o
     0x0800550a   0x0800550a   0x00000002   PAD
-    0x0800550c   0x0800550c   0x00000020   Code   RO         7164    i.keyboard_task     keyboard_task.o
-    0x0800552c   0x0800552c   0x00000028   Code   RO         7165    i.keyboard_task_creat  keyboard_task.o
+    0x0800550c   0x0800550c   0x00000020   Code   RO         7077    i.keyboard_task     keyboard_task.o
+    0x0800552c   0x0800552c   0x00000028   Code   RO         7078    i.keyboard_task_creat  keyboard_task.o
     0x08005554   0x08005554   0x00000042   Code   RO           15    i.main              main.o
     0x08005596   0x08005596   0x0000000c   Code   RO         5791    i.makeFreeRtosPriority  cmsis_os.o
     0x080055a2   0x080055a2   0x00000002   PAD
-    0x080055a4   0x080055a4   0x0000006c   Code   RO         7639    i.malloc            mc_w.l(malloc.o)
-    0x08005610   0x08005610   0x000002c0   Code   RO         7578    i.mx_key_init       bsp_key.o
-    0x080058d0   0x080058d0   0x00000112   Code   RO         6797    i.mx_oled_init      bsp_oled.o
+    0x080055a4   0x080055a4   0x0000006c   Code   RO         7533    i.malloc            mc_w.l(malloc.o)
+    0x08005610   0x08005610   0x000002c0   Code   RO         7472    i.mx_key_init       bsp_key.o
+    0x080058d0   0x080058d0   0x00000112   Code   RO         6794    i.mx_oled_init      bsp_oled.o
     0x080059e2   0x080059e2   0x00000002   PAD
-    0x080059e4   0x080059e4   0x0000002c   Code   RO         7009    i.mx_ws2812b_config  bsp_ws2812b.o
-    0x08005a10   0x08005a10   0x00000006   Code   RO         7010    i.mx_ws2812b_high   bsp_ws2812b.o
-    0x08005a16   0x08005a16   0x000000c2   Code   RO         7011    i.mx_ws2812b_init   bsp_ws2812b.o
-    0x08005ad8   0x08005ad8   0x00000006   Code   RO         7012    i.mx_ws2812b_low    bsp_ws2812b.o
+    0x080059e4   0x080059e4   0x0000002c   Code   RO         7000    i.mx_ws2812b_config  bsp_ws2812b.o
+    0x08005a10   0x08005a10   0x00000006   Code   RO         7001    i.mx_ws2812b_high   bsp_ws2812b.o
+    0x08005a16   0x08005a16   0x000000c2   Code   RO         7002    i.mx_ws2812b_init   bsp_ws2812b.o
+    0x08005ad8   0x08005ad8   0x00000006   Code   RO         7003    i.mx_ws2812b_low    bsp_ws2812b.o
     0x08005ade   0x08005ade   0x00000002   PAD
-    0x08005ae0   0x08005ae0   0x00000020   Code   RO         7013    i.mx_ws2812b_reset  bsp_ws2812b.o
+    0x08005ae0   0x08005ae0   0x00000020   Code   RO         7004    i.mx_ws2812b_reset  bsp_ws2812b.o
     0x08005b00   0x08005b00   0x00000020   Code   RO         6655    i.oled_gui_init     bsp_gui.o
-    0x08005b20   0x08005b20   0x00000010   Code   RO         6800    i.oled_pow          bsp_oled.o
-    0x08005b30   0x08005b30   0x00000020   Code   RO         7294    i.oled_scan_task    oled_task.o
-    0x08005b50   0x08005b50   0x00000028   Code   RO         7295    i.oled_task_creat   oled_task.o
+    0x08005b20   0x08005b20   0x00000010   Code   RO         6797    i.oled_pow          bsp_oled.o
+    0x08005b30   0x08005b30   0x00000020   Code   RO         7207    i.oled_scan_task    oled_task.o
+    0x08005b50   0x08005b50   0x00000028   Code   RO         7208    i.oled_task_creat   oled_task.o
     0x08005b78   0x08005b78   0x0000000e   Code   RO         5793    i.osDelay           cmsis_os.o
     0x08005b86   0x08005b86   0x0000000a   Code   RO         5796    i.osKernelStart     cmsis_os.o
     0x08005b90   0x08005b90   0x00000054   Code   RO         5830    i.osThreadCreate    cmsis_os.o
@@ -3787,10 +3787,10 @@ Memory Map of the image
     0x0800626c   0x0800626c   0x0000006c   Code   RO         5514    i.vTaskStartScheduler  tasks.o
     0x080062d8   0x080062d8   0x00000010   Code   RO         5516    i.vTaskSuspendAll   tasks.o
     0x080062e8   0x080062e8   0x0000005c   Code   RO         5517    i.vTaskSwitchContext  tasks.o
-    0x08006344   0x08006344   0x0000009c   Code   RO         7014    i.ws2812b_IRQ       bsp_ws2812b.o
-    0x080063e0   0x080063e0   0x00000048   Code   RO         7016    i.ws2812b_id_cfg    bsp_ws2812b.o
-    0x08006428   0x08006428   0x00000188   Code   RO         7348    i.ws2812b_task      ws2812b_task.o
-    0x080065b0   0x080065b0   0x00000028   Code   RO         7349    i.ws2812b_task_creat  ws2812b_task.o
+    0x08006344   0x08006344   0x0000009c   Code   RO         7005    i.ws2812b_IRQ       bsp_ws2812b.o
+    0x080063e0   0x080063e0   0x00000048   Code   RO         7007    i.ws2812b_id_cfg    bsp_ws2812b.o
+    0x08006428   0x08006428   0x00000188   Code   RO         7242    i.ws2812b_task      ws2812b_task.o
+    0x080065b0   0x080065b0   0x00000028   Code   RO         7243    i.ws2812b_task_creat  ws2812b_task.o
     0x080065d8   0x080065d8   0x000000f4   Code   RO         6230    i.xPortStartScheduler  port.o
     0x080066cc   0x080066cc   0x0000002c   Code   RO         6231    i.xPortSysTickHandler  port.o
     0x080066f8   0x080066f8   0x0000005a   Code   RO         5519    i.xTaskCreate       tasks.o
@@ -3801,19 +3801,19 @@ Memory Map of the image
     0x08006950   0x08006950   0x0000001c   Data   RO          498    .constdata          freertos.o
     0x0800696c   0x0800696c   0x00000010   Data   RO         4986    .constdata          system_stm32f4xx.o
     0x0800697c   0x0800697c   0x00000008   Data   RO         4987    .constdata          system_stm32f4xx.o
-    0x08006984   0x08006984   0x000005f0   Data   RO         6802    .constdata          bsp_oled.o
-    0x08006f74   0x08006f74   0x0000001c   Data   RO         7166    .constdata          keyboard_task.o
-    0x08006f90   0x08006f90   0x0000001c   Data   RO         7253    .constdata          key_task.o
-    0x08006fac   0x08006fac   0x0000001c   Data   RO         7296    .constdata          oled_task.o
-    0x08006fc8   0x08006fc8   0x0000001c   Data   RO         7351    .constdata          ws2812b_task.o
+    0x08006984   0x08006984   0x000005f0   Data   RO         6799    .constdata          bsp_oled.o
+    0x08006f74   0x08006f74   0x0000001c   Data   RO         7079    .constdata          keyboard_task.o
+    0x08006f90   0x08006f90   0x0000001c   Data   RO         7166    .constdata          key_task.o
+    0x08006fac   0x08006fac   0x0000001c   Data   RO         7209    .constdata          oled_task.o
+    0x08006fc8   0x08006fc8   0x0000001c   Data   RO         7245    .constdata          ws2812b_task.o
     0x08006fe4   0x08006fe4   0x0000000c   Data   RO          499    .conststring        freertos.o
-    0x08006ff0   0x08006ff0   0x00000010   Data   RO         7167    .conststring        keyboard_task.o
-    0x08007000   0x08007000   0x00000009   Data   RO         7254    .conststring        key_task.o
+    0x08006ff0   0x08006ff0   0x00000010   Data   RO         7080    .conststring        keyboard_task.o
+    0x08007000   0x08007000   0x00000009   Data   RO         7167    .conststring        key_task.o
     0x08007009   0x08007009   0x00000003   PAD
-    0x0800700c   0x0800700c   0x0000000a   Data   RO         7297    .conststring        oled_task.o
+    0x0800700c   0x0800700c   0x0000000a   Data   RO         7210    .conststring        oled_task.o
     0x08007016   0x08007016   0x00000002   PAD
-    0x08007018   0x08007018   0x0000000c   Data   RO         7352    .conststring        ws2812b_task.o
-    0x08007024   0x08007024   0x00000020   Data   RO         7699    Region$$Table       anon$$obj.o
+    0x08007018   0x08007018   0x0000000c   Data   RO         7246    .conststring        ws2812b_task.o
+    0x08007024   0x08007024   0x00000020   Data   RO         7593    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08007044, Size: 0x000061b8, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x000003d8])
@@ -3834,17 +3834,17 @@ Memory Map of the image
     0x200000c8   COMPRESSED   0x00000038   Data   RW         6575    .data               usbd_hid.o
     0x20000100   COMPRESSED   0x000000c3   Data   RW         6576    .data               usbd_hid.o
     0x200001c3   COMPRESSED   0x000005c3   Data   RW         6662    .data               bsp_gui.o
-    0x20000786   COMPRESSED   0x00000004   Data   RW         7018    .data               bsp_ws2812b.o
+    0x20000786   COMPRESSED   0x00000004   Data   RW         7009    .data               bsp_ws2812b.o
     0x2000078a   COMPRESSED   0x00000002   PAD
-    0x2000078c   COMPRESSED   0x0000000c   Data   RW         7168    .data               keyboard_task.o
-    0x20000798   COMPRESSED   0x00000008   Data   RW         7255    .data               key_task.o
-    0x200007a0   COMPRESSED   0x0000000c   Data   RW         7298    .data               oled_task.o
-    0x200007ac   COMPRESSED   0x0000003c   Data   RW         7353    .data               ws2812b_task.o
-    0x200007e8   COMPRESSED   0x00000004   Data   RW         7453    .data               bsp_adc.o
-    0x200007ec   COMPRESSED   0x0000000c   Data   RW         7510    .data               bsp_bulehid.o
-    0x200007f8   COMPRESSED   0x0000000c   Data   RW         7579    .data               bsp_key.o
-    0x20000804   COMPRESSED   0x00000004   Data   RW         7690    .data               mc_w.l(mvars.o)
-    0x20000808   COMPRESSED   0x00000004   Data   RW         7691    .data               mc_w.l(mvars.o)
+    0x2000078c   COMPRESSED   0x0000000c   Data   RW         7081    .data               keyboard_task.o
+    0x20000798   COMPRESSED   0x00000008   Data   RW         7168    .data               key_task.o
+    0x200007a0   COMPRESSED   0x0000000c   Data   RW         7211    .data               oled_task.o
+    0x200007ac   COMPRESSED   0x0000003c   Data   RW         7247    .data               ws2812b_task.o
+    0x200007e8   COMPRESSED   0x00000004   Data   RW         7347    .data               bsp_adc.o
+    0x200007ec   COMPRESSED   0x0000000c   Data   RW         7404    .data               bsp_bulehid.o
+    0x200007f8   COMPRESSED   0x0000000c   Data   RW         7473    .data               bsp_key.o
+    0x20000804   COMPRESSED   0x00000004   Data   RW         7584    .data               mc_w.l(mvars.o)
+    0x20000808   COMPRESSED   0x00000004   Data   RW         7585    .data               mc_w.l(mvars.o)
     0x2000080c        -       0x00000048   Zero   RW          413    .bss                adc.o
     0x20000854        -       0x00000028   Zero   RW          455    .bss                can.o
     0x2000087c        -       0x00000254   Zero   RW          497    .bss                freertos.o
@@ -3857,10 +3857,10 @@ Memory Map of the image
     0x2000150c        -       0x000000f0   Zero   RW         5535    .bss                tasks.o
     0x200015fc        -       0x00003c00   Zero   RW         6168    .bss                heap_4.o
     0x200051fc        -       0x00000010   Zero   RW         6660    .bss                bsp_gui.o
-    0x2000520c        -       0x000001a4   Zero   RW         7017    .bss                bsp_ws2812b.o
-    0x200053b0        -       0x000003e0   Zero   RW         7252    .bss                key_task.o
-    0x20005790        -       0x00000414   Zero   RW         7350    .bss                ws2812b_task.o
-    0x20005ba4        -       0x00000010   Zero   RW         7452    .bss                bsp_adc.o
+    0x2000520c        -       0x000001a4   Zero   RW         7008    .bss                bsp_ws2812b.o
+    0x200053b0        -       0x000003e0   Zero   RW         7165    .bss                key_task.o
+    0x20005790        -       0x00000414   Zero   RW         7244    .bss                ws2812b_task.o
+    0x20005ba4        -       0x00000010   Zero   RW         7346    .bss                bsp_adc.o
     0x20005bb4   COMPRESSED   0x00000004   PAD
     0x20005bb8        -       0x00000200   Zero   RW            2    HEAP                startup_stm32f405xx.o
     0x20005db8        -       0x00000400   Zero   RW            1    STACK               startup_stm32f405xx.o
@@ -3874,24 +3874,24 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
        196         24          0          0         72       1785   adc.o
-       288         52          0          4         16       3225   bsp_adc.o
+       288         52          0          4         16       3005   bsp_adc.o
        100         10          0         12          0       1371   bsp_bulehid.o
-         4          0          0          0          0        535   bsp_delay.o
-       844        152          0       1475         16      11691   bsp_gui.o
+         4          0          0          0          0        499   bsp_delay.o
+       844        152          0       1475         16      10987   bsp_gui.o
       2096         18          0         12          0       5613   bsp_key.o
-       810         36       1520          0          0     551544   bsp_oled.o
-       510         24          0          4        420     519861   bsp_ws2812b.o
+       810         36       1520          0          0     550852   bsp_oled.o
+       510         24          0          4        420       5453   bsp_ws2812b.o
        180         20          0          0         40       1805   can.o
        120          0          0          0          0      25213   cmsis_os.o
          0          0          0          0          0      20788   event_groups.o
-       120         22         40          4        596       3218   freertos.o
+       120         22         40          4        596       3534   freertos.o
        220         16          0          0          0     672875   gpio.o
        460         24          0         24      15360       7555   heap_4.o
        104         20         37          8        992       1976   key_task.o
         72         20         44         12          0      32242   keyboard_task.o
        138          0          0          0          0       3750   list.o
-       204         10          0          0          0     664840   main.o
-        72         14         38         12          0       6903   oled_task.o
+       204         10          0          0          0     666172   main.o
+        72         14         38         12          0       1879   oled_task.o
        702         72          0         12          0      11424   port.o
          0          0          0          0          0       2492   queue.o
        216         26          0          0         88       1825   spi.o
@@ -3909,7 +3909,7 @@ Image component sizes
       1390         90          0          0          0      14561   stm32f4xx_hal_tim.o
        144         28          0          0          0       1408   stm32f4xx_hal_tim_ex.o
        680         10          0          0          0       4284   stm32f4xx_hal_uart.o
-        48          6          0          0          0      23011   stm32f4xx_it.o
+        48          6          0          0          0      11455   stm32f4xx_it.o
       2546        140          0          0          0      23715   stm32f4xx_ll_usb.o
          0          0          0          0          0        416   stream_buffer.o
         28          6         24          4          0       1227   system_stm32f4xx.o
@@ -3926,7 +3926,7 @@ Image component sizes
        432         26         40         60       1044       2585   ws2812b_task.o
 
     ----------------------------------------------------------------------
-     25366       1540       2172       2052      22956    2792129   Object Totals
+     25366       1540       2172       2052      22956    2261137   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         50          0          5          7          4          0   (incl. Padding)
 
@@ -3980,8 +3980,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     26568       1576       2172       2060      22956    2764777   Grand Totals
-     26568       1576       2172        984      22956    2764777   ELF Image Totals (compressed)
+     26568       1576       2172       2060      22956    2233785   Grand Totals
+     26568       1576       2172        984      22956    2233785   ELF Image Totals (compressed)
      26568       1576       2172        984          0          0   ROM Totals
 
 ==============================================================================

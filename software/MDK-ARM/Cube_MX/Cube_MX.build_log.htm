@@ -27,46 +27,45 @@ Project File Date:  04/27/2020
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Software_Tool\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Cube_MX'
-compiling bsp_key.c...
-..\groundwork\bsp_key\bsp_key.c(383): warning:  #188-D: enumerated type mixed with another type
-                              key_cfg->keyboard.keypad[i] = 0;
-..\groundwork\bsp_key\bsp_key.c(384): warning:  #188-D: enumerated type mixed with another type
-                              key_cfg->keyboard.keypad_status[i] = 0;
-..\groundwork\bsp_key\bsp_key.c(400): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Left_Alt_Status = key_cfg->key_is_press[KEY_LEFT_ALT].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(411): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Left_Control_Status = key_cfg->key_is_press[KEY_LEFT_CONTROL].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(422): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Left_GUI_Status = key_cfg->key_is_press[KEY_LEFT_WIN].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(433): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Left_Shift_Status = key_cfg->key_is_press[KEY_LEFT_SHIFT].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(444): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Right_Alt_Status = key_cfg->key_is_press[KEY_RIGHT_ALT].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(455): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Right_Control_Status = key_cfg->key_is_press[KEY_RIGHT_CONTROL].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(465): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Right_GUI_Status = key_cfg->key_is_press[KEY_RIGHT_WIN].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(475): warning:  #188-D: enumerated type mixed with another type
-      key_cfg->keyboard.byte0_off.Right_Shift_Status = key_cfg->key_is_press[KEY_RIGHT_SHIFT].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(497): warning:  #188-D: enumerated type mixed with another type
-                                                      key_cfg->keyboard.keypad_status[point]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(504): warning:  #188-D: enumerated type mixed with another type
-                                              key_cfg->keyboard.keypad_status[0]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(508): warning:  #188-D: enumerated type mixed with another type
-                                              key_cfg->keyboard.keypad_status[1]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(512): warning:  #188-D: enumerated type mixed with another type
-                                              key_cfg->keyboard.keypad_status[2]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(516): warning:  #188-D: enumerated type mixed with another type
-                                              key_cfg->keyboard.keypad_status[3]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(520): warning:  #188-D: enumerated type mixed with another type
-                                              key_cfg->keyboard.keypad_status[4]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c(524): warning:  #188-D: enumerated type mixed with another type
-                                              key_cfg->keyboard.keypad_status[5]=key_cfg->key_is_press[i].press_it.states;
-..\groundwork\bsp_key\bsp_key.c: 17 warnings, 0 errors
+compiling bsp_gui.c...
+..\modules\mx_oled\bsp_gui.c(124): warning:  #223-D: function "OLED_Clear" declared implicitly
+  				OLED_Clear();//更换界面清屏
+..\modules\mx_oled\bsp_gui.c(133): warning:  #223-D: function "OLED_Clear" declared implicitly
+  				OLED_Clear();//更换界面清屏
+..\modules\mx_oled\bsp_gui.c(155): warning:  #223-D: function "OLED_DrawBMP" declared implicitly
+  		case 0:{OLED_DrawBMP(0,0,128,6,BMP2);mx_oled_info_s.oled_options_s[0]=1;};break;
+..\modules\mx_oled\bsp_gui.c(196): warning:  #223-D: function "OLED_ShowChar" declared implicitly
+  		if(min+k==get_finger)OLED_ShowChar(0,(k)*2,'-');
+..\modules\mx_oled\bsp_gui.c(197): warning:  #223-D: function "OLED_ShowChar" declared implicitly
+  		else OLED_ShowChar(0,(k)*2,' ');
+..\modules\mx_oled\bsp_gui.c(198): warning:  #223-D: function "OLED_ShowNum" declared implicitly
+  		OLED_ShowNum(10,(k)*2,min+k,1,16);
+..\modules\mx_oled\bsp_gui.c(199): warning:  #223-D: function "OLED_ShowString" declared implicitly
+  		OLED_ShowString(20,(k)*2,&fin_mx_task[min+k-1][0]);
+..\modules\mx_oled\bsp_gui.c(292): warning:  #223-D: function "OLED_ShowString" declared implicitly
+  	OLED_ShowString(2,0,(u8*)"button_ad_text");
+..\modules\mx_oled\bsp_gui.c(293): warning:  #223-D: function "OLED_ShowNum" declared implicitly
+  	OLED_ShowNum(10,4,mx_oled_info_s.adc_key_val,7,16);
+..\modules\mx_oled\bsp_gui.c: 9 warnings, 0 errors
+compiling tim.c...
+compiling bsp_oled.c...
+compiling freertos.c...
+compiling main.c...
+compiling bsp_ws2812b.c...
+..\modules\ws2812b\bsp_ws2812b.c(200): warning:  #1-D: last line of file ends without a newline
+  }
+..\modules\ws2812b\bsp_ws2812b.c: 1 warning, 0 errors
+compiling keyboard_task.c...
+compiling key_task.c...
+compiling oled_task.c...
+compiling ws2812b_task.c...
+..\applications\ws2812b_task.c(68): warning:  #550-D: variable "aRGB"  was set but never used
+      uint32_t aRGB;
+..\applications\ws2812b_task.c: 1 warning, 0 errors
 linking...
 Program Size: Code=26568 RO-data=2172 RW-data=2060 ZI-data=22956  
 FromELF: creating hex file...
-"Cube_MX\Cube_MX.axf" - 0 Error(s), 17 Warning(s).
+"Cube_MX\Cube_MX.axf" - 0 Error(s), 11 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -89,7 +88,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.2.0
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:24
 </pre>
 </body>
 </html>
