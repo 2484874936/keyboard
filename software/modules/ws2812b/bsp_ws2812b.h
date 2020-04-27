@@ -34,4 +34,5 @@ void mx_ws2812b_high(uint8_t ch);
 void mx_ws2812b_reset(void);
 void ws2812b_id_cfg(keyboard_rgb *board_rgb_led);
 void ws2812b_IRQ(void);
+
 #endif

@@ -56,3 +56,4 @@ cube_mx\key_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 cube_mx\key_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 cube_mx\key_task.o: ..\modules\keyboard\keyboard_cfg.h
 cube_mx\key_task.o: ..\groundwork\bsp_key\bsp_key.h
+cube_mx\key_task.o: ..\groundwork\bsp_hx04_hid_km\bsp_bulehid.h

@@ -84,7 +84,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
- HAL_Init();
+  HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -112,7 +112,7 @@ int main(void)
   mx_oled_init();
   oled_gui_init();
   /* USER CODE END 2 */
- 
+
   /* Call init function for freertos objects (in freertos.c) */
   MX_FREERTOS_Init(); 
  

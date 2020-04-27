@@ -54,7 +54,6 @@
 "cube_mx\bsp_gui.o"
 "cube_mx\bsp_oled.o"
 "cube_mx\bsp_ws2812b.o"
-"cube_mx\keyboard_cfg.o"
 "cube_mx\keyboard_task.o"
 "cube_mx\key_task.o"
 "cube_mx\oled_task.o"

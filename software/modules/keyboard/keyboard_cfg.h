@@ -3,6 +3,7 @@
 #include "struct_typedef.h"
 #define MAX_KEYPAD_PAGE 104
 #define STACK_POINT_LENGTH 6
+/*键盘按键枚举*/
 typedef enum
 {
     Key_board_Null = 0,
@@ -141,48 +142,48 @@ typedef enum
     Right_Alt,
     Right_GUI,
 } Byte0_Offset;
+
+typedef enum
+{
+	KEYBOARD_UPSPRING,    //按键弹起 
+	KEYBOARD_PRESS,		 //按键按下
+	KEYBOARD_PRESS_L_TIME,//按键长按
+}keyboard_states;
+
 typedef struct
 {
     struct
     {
         uint8_t Left_Control:1;
+		uint8_t Left_Control_used_it:1;
         uint8_t Left_Shift:1;
+		uint8_t Left_Shift_used_it:1;
         uint8_t Left_Alt:1;
+		uint8_t Left_Alt_used_it:1;
         uint8_t Left_GUI:1;
+		uint8_t Left_GUI_used_it:1;
         uint8_t Right_Control:1;
+		uint8_t Right_Control_used_it:1;
         uint8_t Right_Shift:1;
+		uint8_t Right_Shift_used_it:1;
         uint8_t Right_Alt:1;
+		uint8_t Right_Alt_used_it:1;
         uint8_t Right_GUI:1;
+		uint8_t Right_GUI_used_it:1;
+		keyboard_states Left_Control_Status;
+		keyboard_states Left_Shift_Status;
+		keyboard_states Left_Alt_Status;
+		keyboard_states Left_GUI_Status;
+		keyboard_states Right_Control_Status;
+		keyboard_states Right_Shift_Status;
+		keyboard_states Right_Alt_Status;
+		keyboard_states Right_GUI_Status;
     } byte0_off;
 	//六键无冲缓冲区
     uint8_t stack_pointer;
-    keypad_page_t  keypad[6];
+    keypad_page_t   keypad[6];
+	keyboard_states keypad_status[6];
+	uint8_t used_it[6];
 }keyboard_cfg;
-
-
-typedef struct
-{
-	uint8_t press_it:1;
-	uint8_t used_it:1;
-}Ordinary_key;
-typedef struct
-{
-    struct
-    {
-        uint8_t Left_Control:1;
-        uint8_t Left_Shift:1;
-        uint8_t Left_Alt:1;
-        uint8_t Left_GUI:1;
-        uint8_t Right_Control:1;
-        uint8_t Right_Shift:1;
-        uint8_t Right_Alt:1;
-        uint8_t Right_GUI:1;
-    } byte0_off;
-	//六键无冲缓冲区
-    uint8_t stack_pointer;
-    keypad_page_t  keypad_page[6];
-	Ordinary_key ord_key[MAX_KEYPAD_PAGE];
-} keyboard_hid;
 void keypad_Update(uint8_t *pTxbuf);
-extern keyboard_hid hid_info;
 #endif

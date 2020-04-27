@@ -6,11 +6,11 @@
 #include "keyboard_cfg.h"
 
 #include "bsp_key.h"
-
+#include "bsp_bulehid.h"
 
 
 key_info_t key_info;
-uint8_t Tx_buffer[8]= {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
+
 osThreadId key_sacn_TaskHandle;
 void key_task_creat(void)
 {
@@ -26,12 +26,10 @@ void key_scan_task(void const *pvParameters)
 		for(i=1;i<=MAX_SEG;i++)
 		{
 			key_scan_gpio_set(&key_info,i);
-			osDelay(5);
+			osDelay(READ_DELAY_TIME);
 			key_scan_gpio_read(&key_info,i);
 		}
 		key_scan_updata(&key_info);
-		key_update(Tx_buffer,&key_info);
-		osDelay(5);
 	}
 }
 

@@ -8,6 +8,7 @@
 */
 /*IRQ中使用暂存，IRQ中不能包含过多代码，故封装显示*/
 static ws2812b_led ws2812b_irq_cfg[3][MAX_WS2812B_NUM];
+
 void mx_ws2812b_init(keyboard_rgb *board_rgb_led)
 {
     uint8_t i;
@@ -68,6 +69,8 @@ void mx_ws2812b_init(keyboard_rgb *board_rgb_led)
                 }
         }
 }
+
+/*发送完所有字节后输出PWM复位码*/
 void mx_ws2812b_reset(void)
 {
     TIM4->ARR  = 1199;
@@ -75,6 +78,7 @@ void mx_ws2812b_reset(void)
     TIM4->CCR3 = 0;
     TIM4->CCR4 = 0;
 }
+
 void mx_ws2812b_config(uint8_t ch,uint8_t set)
 {
     TIM4->ARR = 95;
@@ -91,14 +95,18 @@ void mx_ws2812b_config(uint8_t ch,uint8_t set)
             break;
         }
 }
+
+/*pwm输出 0码*/
 void mx_ws2812b_low(uint8_t ch)
 {
     mx_ws2812b_config(ch,4);
 }
+/*pwm输出 1码*/
 void mx_ws2812b_high(uint8_t ch)
 {
     mx_ws2812b_config(ch,9);
 }
+
 void ws2812b_column_cfg(keyboard_rgb *board_rgb_led)
 {
 	

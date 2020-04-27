@@ -682,11 +682,6 @@
               <FileType>1</FileType>
               <FilePath>..\modules\ws2812b\bsp_ws2812b.c</FilePath>
             </File>
-            <File>
-              <FileName>keyboard_cfg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\modules\keyboard\keyboard_cfg.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>

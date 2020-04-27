@@ -9,9 +9,11 @@
 #include "bsp_bulehid.h"
 
 #include "key_task.h"
+#include "bsp_key.h"
 extern USBD_HandleTypeDef hUsbDeviceFS;
+extern key_info_t key_info;
 
-extern uint8_t Tx_buffer[8];
+uint8_t Tx_buffer[8]= {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
 
 uint8_t sts;
 osThreadId keyboard_TaskHandle;
@@ -25,11 +27,14 @@ void keyboard_task(void const *pvParameters)
     while(1)
         {
 #if KEY_BOARD_MODE==USER_WIRED
+			key_update(Tx_buffer,&key_info);
             USBD_HID_SendReport(&hUsbDeviceFS,Tx_buffer,8);//·¢ËÍ±¨ÎÄ
+			
 #elif KEY_BOARD_MODE==USER_WIREDLESS
-            bule_keyboard_updata(Tx_buffer);
+            key_update(Tx_buffer,&key_info);
+		    bule_keyboard_updata(Tx_buffer);
 #endif
-            osDelay(100);
+            osDelay(20);
         }
 }
 

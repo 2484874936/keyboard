@@ -70,6 +70,7 @@ void ws2812b_task(void const *pvParameters)
 				ws2812b_data.RGB_OFFSET[WS2812B_R_OFFSET] = red/10;
 				ws2812b_data.RGB_OFFSET[WS2812B_G_OFFSET] = green/10;
 				ws2812b_data.RGB_OFFSET[WS2812B_B_OFFSET] = blue/10;
+				/*实际效果可以精确控制指定LED*/
 				for(k=0;k<87;k++)
 				{
 					board_rgb[k].rgb_set.WS2812B_RGB = ws2812b_data.WS2812B_RGB;

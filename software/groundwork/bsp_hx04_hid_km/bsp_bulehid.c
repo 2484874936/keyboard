@@ -36,7 +36,7 @@ void mx_bulehid_init(void)
 }
 void bule_keyboard_updata(uint8_t* pTx_bule)
 {
-	
+	/*每个按键按下对应一个按键抬起，特殊键除外*/
 	bule_keyboard[0] =  0x0C;//固定值
 	bule_keyboard[1] =  0x00;//固定值
 	bule_keyboard[2] =  0xA1;//固定值
@@ -50,7 +50,7 @@ void bule_keyboard_updata(uint8_t* pTx_bule)
 	bule_keyboard[10] = pTx_bule[6];//变动值5
 	bule_keyboard[11] = pTx_bule[7];//变动值6
 	HAL_UART_Transmit(&huart4,bule_keyboard,12,100);
-	bule_keyboard[4]=0;
+//	bule_keyboard[4]=0;//防止滞键提示
 	bule_keyboard[6]=0;
 	bule_keyboard[7]=0;
 	bule_keyboard[8]=0;

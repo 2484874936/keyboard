@@ -68,3 +68,4 @@ cube_mx\keyboard_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/even
 cube_mx\keyboard_task.o: ..\modules\keyboard\keyboard_cfg.h
 cube_mx\keyboard_task.o: ..\groundwork\bsp_hx04_hid_km\bsp_bulehid.h
 cube_mx\keyboard_task.o: ..\applications\key_task.h
+cube_mx\keyboard_task.o: ..\groundwork\bsp_key\bsp_key.h
