@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: STM32F405.PcbDoc   2020/4/16  23:06:59
+NCDrill File Report For: STM32F405.PcbDoc   2020/4/29  11:04:14
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,20 +9,20 @@ ASCII RectHoles File : STM32F405-RectHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.305mm)                                           Round             2627      PTH        0.00inch (0.00mm)
+T1      12mil (0.305mm)                                           Round             2611      PTH        0.00inch (0.00mm)
 T2      20mil (0.5mm)                                             Slot              4         PTH        0.00inch (0.00mm)
 T3      47mil (1.2mm)                                             Round             2         PTH        0.00inch (0.00mm)
 T4      59mil (1.5mm)                                             Round             174       PTH        0.00inch (0.00mm)
 T5      67mil (1.702mm)                                           Round             174       PTH        0.00inch (0.00mm)
 T6      75mil (1.9mm)                                             Round             2         PTH        0.00inch (0.00mm)
 T7      120mil (3.048mm)                                          Round             10        PTH        0.00inch (0.00mm)
-T8      125mil (3.175mm)                                          Round             4         PTH        0.00inch (0.00mm)
+T8      125mil (3.175mm)                                          Round             8         PTH        0.00inch (0.00mm)
 T9      126mil (3.2mm)                                            Rectangle         87        PTH        0.00inch (0.00mm)
 T10     157mil (3.988mm)                                          Round             10        PTH        0.00inch (0.00mm)
 T11     160mil (4.064mm)                                          Round             87        PTH        0.00inch (0.00mm)
 T12     26mil (0.65mm)                                            Round             2         NPTH       0.00inch (0.00mm)
 T13     126mil (3.2mm)                                            Round             8         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              3191
+Totals                                                                              3179
 
-Total Processing Time (hh:mm:ss) : 00:00:02
+Total Processing Time (hh:mm:ss) : 00:00:01

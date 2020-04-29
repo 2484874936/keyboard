@@ -1,14 +1,14 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [STM32F405.PrjPcb]
-   Generated File[STM32F405.GD1]
-   Generated File[STM32F405.GG1]
-   Generated File[STM32F405.RUL]
-   Generated File[STM32F405.EXTREP]
-   Generated File[STM32F405.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [STM32F405.PrjPcb]
+   Generated File[STM32F405-RoundHoles.TXT]
+   Generated File[STM32F405-SlotHoles.TXT]
+   Generated File[STM32F405-RectHoles.TXT]
+   Generated File[STM32F405.LDP]
+   Generated File[STM32F405.DRR]
 
 
 Files Generated   : 5
 Documents Printed : 0
 
-Finished Output Generation At 23:10:07 On 2020/4/16
+Finished Output Generation At 11:04:15 On 2020/4/29

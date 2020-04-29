@@ -8,6 +8,11 @@
 
 **欢迎加入SEASKY开源技术交流群:893445794**
 
+<img src = "./image/readme.png" width="800" />
+
+**说明：**
+	上图所示引出接口，普通接口使用GH1.25，SWD调试接口使用MX1.25,如果你使用的J-link，或ST-link是2.54的，需要买相应的2.54转mx1.25的线，如果你使用其他烧录方式，具体自己了解，最后提醒一下，务必关注原理图接口线序，我做的接口基本兼容RoboMaster，注意蓝牙模块必须是HC04-HID模块
+
 
 <img src = "./image/keyboard0.jpg" width="800" />
 <img src = "./image/keyboard1.jpg" width="800" />
