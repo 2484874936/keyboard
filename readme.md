@@ -15,7 +15,8 @@
 
 **下载说明：**
 	因为有人反映github下载速度过慢，因此如果您有下载网速过慢的问题可以尝试使用码云[``https://gitee.com/``](https://gitee.com/)clone仓库后下载，码云下载github仓库的具体方法大家自行了解，很简单,同时由于仓库可能会更新软件，建议大家在github关注。
-
+<img src = "./image/keyboard12.jpg" width="800" />
+<img src = "./image/keyboard13.jpg" width="800" />
 <img src = "./image/keyboard0.jpg" width="800" />
 <img src = "./image/keyboard1.jpg" width="800" />
 <img src = "./image/keyboard8.jpg" width="800" />
@@ -26,3 +27,8 @@
 <img src = "./image/keyboard5.jpg" width="800" />
 <img src = "./image/keyboard6.jpg" width="800" />
 <img src = "./image/keyboard7.jpg" width="800" />
+
+**定位板：可以发加工黄铜定位板，铝定位板**
+<img src = "./image/keyboard10.jpg" width="800" />
+**亚克力外壳：发亚克力加工 M2 M3螺丝**
+<img src = "./image/keyboard11.jpg" width="800" />
