@@ -28,7 +28,7 @@
 <img src = "./image/keyboard6.jpg" width="800" />
 <img src = "./image/keyboard7.jpg" width="800" />
 
-**定位板：可以发加工黄铜定位板，铝定位板**
+**定位板：可以发加工黄铜定位板，铝定位板，此定位板可能需要自行修改一下，否则可能导致部分usb数据线无法接入**
 <img src = "./image/keyboard10.jpg" width="800" />
 **亚克力外壳：发亚克力加工 M2 M3螺丝**
 <img src = "./image/keyboard11.jpg" width="800" />
